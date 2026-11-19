@@ -1,0 +1,20 @@
+:root {
+  --bg: #f7f4ee;
+  --surface: #ffffff;
+  --text: #1b1f1c;
+  --muted: #6b6f68;
+  --primary: #1f4d36;
+  --primary-contrast: #ffffff;
+  --border: #e6e1d6;
+  --hover: #efeae0;
+  --ok: #1f7a4d;
+  --danger: #b42318;
+  --hero-bg: linear-gradient(180deg,#efe9dc,#f7f4ee);
+  --admin-bg: #f2efe8;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --radius: 14px;
+  --btn-radius: 999px;
+  --card-ratio: 1 / 1;
+  --shadow: 0 18px 40px -18px rgb(31 77 54 / .35);
+}
