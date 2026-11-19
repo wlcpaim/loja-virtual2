@@ -1,21 +1,23 @@
 :root {
-  /* Cores Principais */
-  --primary: #0f392b;
-  --primary-hover: #164e39;
-  --primary-light: #eaf3ee;
+  /* Cores Principais — Esmeralda Profundo & Dourado Nobre */
+  --primary: #0a382a;
+  --primary-hover: #134e3b;
+  --primary-light: #e8f5ef;
   --primary-contrast: #ffffff;
   --accent: #f59e0b;
+  --accent-hover: #d97706;
   --accent-badge: #e11d48;
   
   /* Superfícies e Fundos */
-  --bg: #f8faf9;
+  --bg: #f8fafc;
   --surface: #ffffff;
-  --surface-alt: #f1f5f3;
+  --surface-alt: #f1f5f9;
+  --surface-card: #ffffff;
   --border: #e2e8f0;
-  --border-subtle: #edf2f7;
-  --hover: #f1f5f3;
+  --border-subtle: #f1f5f9;
+  --hover: #f1f5f9;
   
-  /* Tipografia & Contrastes */
+  /* Tipografia & Contrastes (WCAG AAA) */
   --text: #0f172a;
   --text-secondary: #334155;
   --muted: #64748b;
@@ -31,9 +33,10 @@
   --info: #0284c7;
   --info-bg: #f0f9ff;
   
-  /* Fundos Específicos */
-  --hero-bg: radial-gradient(100% 120% at 50% 0%, #e6f2eb 0%, #f8faf9 100%);
-  --admin-bg: #f3f6f5;
+  /* Fundos Especiais & Gradientes */
+  --hero-bg: radial-gradient(120% 120% at 50% 0%, #e6f3ec 0%, #f8fafc 100%);
+  --admin-bg: #f1f5f9;
+  --card-gradient: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,1) 100%);
   
   /* Tipografia */
   --font-display: 'Fraunces', Georgia, serif;
@@ -47,12 +50,15 @@
   --btn-radius: 999px;
   --card-ratio: 1 / 1;
   
-  /* Sombras Elegantes Multicamadas */
-  --shadow-sm: 0 1px 3px 0 rgb(15 23 42 / 0.05), 0 1px 2px -1px rgb(15 23 42 / 0.05);
-  --shadow: 0 10px 25px -5px rgb(15 57 43 / 0.08), 0 8px 10px -6px rgb(15 57 43 / 0.04);
-  --shadow-lg: 0 20px 35px -8px rgb(15 57 43 / 0.14), 0 10px 15px -6px rgb(15 57 43 / 0.06);
-  --shadow-drawer: -12px 0 35px rgba(15, 23, 42, 0.18);
+  /* Sombras Multicamadas Refinadas */
+  --shadow-xs: 0 1px 2px 0 rgb(15 23 42 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(15 23 42 / 0.06), 0 1px 2px -1px rgb(15 23 42 / 0.04);
+  --shadow: 0 10px 25px -5px rgb(10 56 42 / 0.08), 0 8px 10px -6px rgb(10 56 42 / 0.04);
+  --shadow-lg: 0 20px 35px -8px rgb(10 56 42 / 0.14), 0 10px 15px -6px rgb(10 56 42 / 0.06);
+  --shadow-drawer: -12px 0 40px rgba(15, 23, 42, 0.22);
   
-  /* Transições Fluídas */
-  --transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  /* Transições Fluidas */
+  --transition-fast: all 0.15s ease;
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
